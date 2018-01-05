@@ -5,7 +5,7 @@
 
 \#23 Fixed? Tag is saved, but the proposed `status bar` is not implemented yet. 
 
-\#22 Correct
+\#22 Correct? Help menu is not fully implemented.
 
 \#21 Fixed. This was probably related to Haiku, not ArmyKnife.
 
