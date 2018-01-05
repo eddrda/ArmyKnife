@@ -7,7 +7,7 @@
 
 \#22 Fixed (PR \#38)
 
-\#21 Fixed. This was probably related to Haiku rather than ArmyKnife.
+\#21 Fixed. This was probably related to Haiku, not ArmyKnife.
 
 \#20 Correct
 
