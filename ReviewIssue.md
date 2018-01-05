@@ -5,7 +5,7 @@
 
 \#23 Fixed? Tag is saved, but the proposed `status bar` is not implemented yet. 
 
-\#22 Fixed (PR \#38)
+\#22 Correct
 
 \#21 Fixed. This was probably related to Haiku, not ArmyKnife.
 
