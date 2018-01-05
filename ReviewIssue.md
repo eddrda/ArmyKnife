@@ -21,7 +21,7 @@
 
 \#15 Correct.
 
-\#14 Looking at the source code, this might be fixed. Idk how to test it.
+\#14 Looking at the source code, this might be fixed. I don't know how to test it.
 
 \#12 Correct. Switching mode will cause all files to be selected again.
 
