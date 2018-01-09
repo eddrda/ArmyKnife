@@ -29,12 +29,14 @@ class AppWindow : public BWindow
 		void AboutRequested();
 
 		AppView*	m_app_view;
+		BFilePanel*	fOpenPanel;
 		BMenuBar*	m_menu_bar;
 		BMenu*		m_file_menu;
 		BMenu*		m_edit_menu;
 		BMenu*		m_mode_menu;
 		BMenu*		m_options_menu;
 		BMenu*		m_help_menu;
+		BMenuItem*	m_open_menu_item;
 		BMenuItem*	m_about_menu_item;
 		BMenuItem*	m_quit_menu_item;
 		BMenuItem*	m_cut_menu_item;

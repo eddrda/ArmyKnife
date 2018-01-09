@@ -63,6 +63,7 @@ AppWindow::InitWindow()
 
 	//create file menu
 	m_file_menu = new BMenu(FILE_MENU);
+	m_open_menu_item = new BMenuItem(OPEN_ITEM, new BMessage(MSG_FILE_OPEN), OPEN_SHORTCUT);
 	m_about_menu_item = new BMenuItem(ABOUT_ITEM, new BMessage(B_ABOUT_REQUESTED));
 	m_quit_menu_item = new BMenuItem(QUIT_ITEM, new BMessage(B_QUIT_REQUESTED), QUIT_SHORTCUT);
 
@@ -161,6 +162,11 @@ AppWindow::MessageReceived(BMessage* message)
 
 	switch(message->what)
 	{
+		case MSG_FILE_OPEN:
+		{
+			fOpenPanel->Show();
+			break;
+		}
 		case B_ABOUT_REQUESTED:
 			AboutRequested();
 			break;
