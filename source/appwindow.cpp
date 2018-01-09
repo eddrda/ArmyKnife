@@ -69,6 +69,8 @@ AppWindow::InitWindow()
 	m_about_menu_item = new BMenuItem(ABOUT_ITEM, new BMessage(B_ABOUT_REQUESTED));
 	m_quit_menu_item = new BMenuItem(QUIT_ITEM, new BMessage(B_QUIT_REQUESTED), QUIT_SHORTCUT);
 
+	m_file_menu->AddItem(m_open_menu_item);
+	m_file_menu->AddSeparatorItem();
 	m_file_menu->AddItem(m_about_menu_item);
 	m_file_menu->AddSeparatorItem();
 	m_file_menu->AddItem(m_quit_menu_item);
