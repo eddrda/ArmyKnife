@@ -59,6 +59,10 @@ AppWindow::InitWindow()
 {
 	PRINT(("AppWindow::InitWindow()\n"));
 
+	BMessenger thisMessenger(this, this);
+	BMessage message(B_REFS_RECEIVED);
+	fOpenPanel = new BFilePanel(B_OPEN_PANEL, &thisMessenger, NULL, B_FILE_NODE, true, &message);
+
 	m_menu_bar = new BMenuBar("menuBar");
 
 	//create file menu

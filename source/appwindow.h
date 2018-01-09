@@ -4,6 +4,7 @@
 #include <Menu.h>
 #include <Window.h>
 #include <String.h>
+#include <FilePanel.h>
 
 class AppView;
 class BMessage;
